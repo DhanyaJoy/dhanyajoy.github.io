@@ -1,4 +1,10 @@
 
+html,body
+{
+margin:0;
+background-color:#ddeede;
+}
+
 #header
 {
 background-color:black;
@@ -9,9 +15,9 @@ height:100px;
 }
 #photo
 {
-line-height:30px;
+
 background-color:lightblue;
-height:550px;
+height:0%;
 width:300px;
 float:right;
 padding:5px;
@@ -26,16 +32,10 @@ padding:5px;
 }
 #story
 {
-background-color:#ddeede;
+
 text-align:left;
-padding:10px;
+
+
+
 }
-#none
-{
-line-height:30px;
-background-color:#ddeede;
-height:480px;
-width:100px;
-float:left;
-padding:5px;
-}
+
