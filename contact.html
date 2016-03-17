@@ -1,6 +1,10 @@
 <html>
     <head>
 		<link REL="StyleSheet" TYPE="text/css" HREF="styles/site.css">
+		<style>
+		.formfield * {
+			vertical-align: middle;
+		</style>
 	</head>
 	<body vlink="brown">
 		<div id="header">
@@ -20,14 +24,20 @@
 			</h3>
 		</div>
 
-<div id="story">
-<font face="Lucida Calligraphy">
-<br><br><br><br><br>
-  
-<p>
-<br><br><br><br><br><br><br>
-</div>
-
-</body>
-
+		<div id="story" align="center">
+			<form action="action_page.php">
+				Name:<input type="text" size="17" name="text1">&nbsp;&nbsp;
+				Email id:<input type="text" size="17" name="text2">
+				<br><br><br>
+				<p class="formfield">
+				<label for="textarea">Message:</label>
+				<textarea id="textarea" rows="5" cols="40">Type your message here...</textarea>
+				</p>
+				<br><br>
+				<input type="submit" value="Submit" method="post">
+				<br><br><br><br><br><br><br>
+				<h3>You can mail me at: <font color="blue">simondhanya@gmail.com</font></h3>
+			</form>
+		</div>
+	</body>
 </html>
