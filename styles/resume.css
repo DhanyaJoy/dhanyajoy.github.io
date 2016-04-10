@@ -10,7 +10,7 @@ html,body {
 }
 #photo
 {
-text-align:center;
+vertical-align:center;
 height: 90px;
 line-height: 90px;
 }
